@@ -1,0 +1,15 @@
+[package]
+name = "babysitter"
+version = "0.1.0"
+edition = "2021"
+description = "A halfway decent way to run Packwiz minecraft servers using NixOS infrastructure"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+color-eyre = "0.6.3"
+libc = "0.2.153"
+nix = { version = "0.28.0", features = ["process"] }
+rpackwiz = { git = "https://github.com/vgskye/rpackwiz" }
+toml = "0.8.12"
+ureq = "2.9.6"
