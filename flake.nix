@@ -28,6 +28,9 @@
 
         cargoLock = {
           lockFile = ./Cargo.lock;
+          outputHashes = {
+            "rpackwiz-0.1.0" = "sha256-pOotNPIZS/BXiJWZVECXzP1lkb/o9J1tu6G2OqyEnI8=";
+          };
         };
       };
   in rec {
